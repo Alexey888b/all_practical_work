@@ -1,0 +1,1170 @@
+{
+  "id": "ad40f577-4150-43b5-9817-58ab1daff24f",
+  "version": "2.0",
+  "name": "Practical work No. 5",
+  "url": "https://qa.neapro.site/login/",
+  "tests": [{
+    "id": "74d00fc1-ff4d-4f96-a089-5b950dce16d7",
+    "name": "Login",
+    "commands": [{
+      "id": "1709666d-b599-4135-a18b-e3de499cff3d",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": "https://qa.neapro.site/login/"
+    }, {
+      "id": "5f562a7a-a845-4362-943c-7a120fd0c28d",
+      "comment": "",
+      "command": "type",
+      "target": "css=.fieldset:nth-child(1) input",
+      "targets": [
+        ["css=.fieldset:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/section/div[2]/div/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "alexdives@ya.ru"
+    }, {
+      "id": "577bdadc-b367-447e-a469-348a58ea4baf",
+      "comment": "",
+      "command": "type",
+      "target": "css=.fieldset:nth-child(2) input",
+      "targets": [
+        ["css=.fieldset:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/section/div[2]/div/div/div/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "12345678"
+    }, {
+      "id": "b93ad414-d2ed-411e-8a71-9c12105753f4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/section/div[2]/div/div/div/form/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Подтвердить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "941c5800-7678-4638-8227-20daa9fb90fb",
+    "name": "Passport",
+    "commands": [{
+      "id": "1a24aec3-7312-4a5b-800e-4043569c6609",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": "https://qa.neapro.site/login/"
+    }, {
+      "id": "f86115dd-244b-484a-a45a-80f372438309",
+      "comment": "",
+      "command": "type",
+      "target": "css=.fieldset:nth-child(1) input",
+      "targets": [
+        ["css=.fieldset:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/section/div[2]/div/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "alexdives@ya.ru"
+    }, {
+      "id": "d65e488b-c3de-450e-b38e-74cc760e69e7",
+      "comment": "",
+      "command": "type",
+      "target": "css=.fieldset:nth-child(2) input",
+      "targets": [
+        ["css=.fieldset:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/section/div[2]/div/div/div/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "12345678"
+    }, {
+      "id": "22a6109b-900c-4855-97e0-0749a25699cb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/section/div[2]/div/div/div/form/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Подтвердить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "29c18611-dbfb-4b2a-9553-526e681bf35c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active .document-tile:nth-child(1)",
+      "targets": [
+        ["css=.active .document-tile:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[3]/div/div/div[2]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95c03fc1-b6d5-42fd-93b5-8896f3ac842c",
+      "comment": "",
+      "command": "click",
+      "target": "id=surname",
+      "targets": [
+        ["id=surname", "id"],
+        ["css=#surname", "css:finder"],
+        ["xpath=//input[@id='surname']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[3]/div/div/div[2]/div[3]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0fe1089-8655-4923-91af-32312aa3e0b7",
+      "comment": "",
+      "command": "type",
+      "target": "id=surname",
+      "targets": [
+        ["id=surname", "id"],
+        ["css=#surname", "css:finder"],
+        ["xpath=//input[@id='surname']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[3]/div/div/div[2]/div[3]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Уткин"
+    }, {
+      "id": "fd2a6697-5a7b-45d7-a2d5-88d8d6dc3d5c",
+      "comment": "",
+      "command": "click",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[3]/div/div/div[2]/div[3]/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed252ae0-dc44-4696-94b9-79d6d7d61409",
+      "comment": "",
+      "command": "type",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[3]/div/div/div[2]/div[3]/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Семен"
+    }, {
+      "id": "07e808f1-e6f9-4fad-82e0-3c4c7b891f13",
+      "comment": "",
+      "command": "click",
+      "target": "id=patronymic",
+      "targets": [
+        ["id=patronymic", "id"],
+        ["css=#patronymic", "css:finder"],
+        ["xpath=//input[@id='patronymic']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[3]/div/div/div[2]/div[3]/div/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a36f07e1-d3d4-4bda-a45b-d9e49b273e66",
+      "comment": "",
+      "command": "type",
+      "target": "id=patronymic",
+      "targets": [
+        ["id=patronymic", "id"],
+        ["css=#patronymic", "css:finder"],
+        ["xpath=//input[@id='patronymic']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[3]/div/div/div[2]/div[3]/div/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "Поликарпович"
+    }, {
+      "id": "629483df-88c4-42b8-8784-1b11cb12d57b",
+      "comment": "",
+      "command": "click",
+      "target": "name=date",
+      "targets": [
+        ["name=date", "name"],
+        ["css=#birthday .mx-input", "css:finder"],
+        ["xpath=//input[@name='date']", "xpath:attributes"],
+        ["xpath=//div[@id='birthday']/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "16166cbb-22d1-4d48-bc2a-743235ba2720",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mx-icon-left",
+      "targets": [
+        ["css=.mx-icon-left", "css:finder"],
+        ["xpath=//button[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "332ebd21-e5ed-44e8-84ca-3a53f934df79",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mx-date-row:nth-child(2) > .cell:nth-child(3) > div",
+      "targets": [
+        ["css=.mx-date-row:nth-child(2) > .cell:nth-child(3) > div", "css:finder"],
+        ["xpath=//tr[2]/td[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8b0f1c3-acc4-4086-bd1f-a0006cc9c263",
+      "comment": "",
+      "command": "click",
+      "target": "id=passportSeries",
+      "targets": [
+        ["id=passportSeries", "id"],
+        ["css=#passportSeries", "css:finder"],
+        ["xpath=//input[@id='passportSeries']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[3]/div/div/div[2]/div[3]/div[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "58c2afb6-22fd-4f07-abec-d071304b0cf9",
+      "comment": "",
+      "command": "type",
+      "target": "id=passportSeries",
+      "targets": [
+        ["id=passportSeries", "id"],
+        ["css=#passportSeries", "css:finder"],
+        ["xpath=//input[@id='passportSeries']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[3]/div/div/div[2]/div[3]/div[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "12-35"
+    }, {
+      "id": "52ebf782-11c0-4d99-9a03-33f06955b7b5",
+      "comment": "",
+      "command": "click",
+      "target": "id=passportNumber",
+      "targets": [
+        ["id=passportNumber", "id"],
+        ["css=#passportNumber", "css:finder"],
+        ["xpath=//input[@id='passportNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[3]/div/div/div[2]/div[3]/div[2]/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f7d9d60-3b8f-44f2-98d9-baa28e73445c",
+      "comment": "",
+      "command": "click",
+      "target": "id=passportNumber",
+      "targets": [
+        ["id=passportNumber", "id"],
+        ["css=#passportNumber", "css:finder"],
+        ["xpath=//input[@id='passportNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[3]/div/div/div[2]/div[3]/div[2]/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cef6b7b9-e901-45fc-903c-9ce94d142837",
+      "comment": "",
+      "command": "type",
+      "target": "id=passportNumber",
+      "targets": [
+        ["id=passportNumber", "id"],
+        ["css=#passportNumber", "css:finder"],
+        ["xpath=//input[@id='passportNumber']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[3]/div/div/div[2]/div[3]/div[2]/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/input", "xpath:position"]
+      ],
+      "value": "567855"
+    }, {
+      "id": "25f430e3-5442-4ffc-8e1b-1796dd6c7232",
+      "comment": "",
+      "command": "click",
+      "target": "css=#dateOfIssue .mx-input",
+      "targets": [
+        ["css=#dateOfIssue .mx-input", "css:finder"],
+        ["xpath=(//input[@name='date'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='dateOfIssue']/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff34f569-5843-4e76-8d0c-4ffaa91e5091",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mx-icon-left",
+      "targets": [
+        ["css=.mx-icon-left", "css:finder"],
+        ["xpath=//button[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6cdec947-918f-460a-b451-b0358ca2c8ca",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mx-icon-left",
+      "targets": [
+        ["css=.mx-icon-left", "css:finder"],
+        ["xpath=//button[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa4e2f55-886c-44a8-85c2-6d75ef7b620e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mx-icon-left",
+      "targets": [
+        ["css=.mx-icon-left", "css:finder"],
+        ["xpath=//button[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e4260e4-e631-4d5a-9849-3eb8a3fb6a0d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mx-date-row:nth-child(2) > .cell:nth-child(4) > div",
+      "targets": [
+        ["css=.mx-date-row:nth-child(2) > .cell:nth-child(4) > div", "css:finder"],
+        ["xpath=//tr[2]/td[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2a0a855-04f2-406e-b482-21d98977076e",
+      "comment": "",
+      "command": "click",
+      "target": "id=code",
+      "targets": [
+        ["id=code", "id"],
+        ["css=#code", "css:finder"],
+        ["xpath=//input[@id='code']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[3]/div/div/div[2]/div[3]/div[3]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f67e63a-135e-4155-b928-4591d06dd353",
+      "comment": "",
+      "command": "type",
+      "target": "id=code",
+      "targets": [
+        ["id=code", "id"],
+        ["css=#code", "css:finder"],
+        ["xpath=//input[@id='code']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[3]/div/div/div[2]/div[3]/div[3]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "778-988"
+    }, {
+      "id": "f19d8d7c-90f3-4a38-ba47-66759d6142bc",
+      "comment": "",
+      "command": "click",
+      "target": "id=cardId",
+      "targets": [
+        ["id=cardId", "id"],
+        ["css=#cardId", "css:finder"],
+        ["xpath=//input[@id='cardId']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[3]/div/div/div[2]/div[3]/div[3]/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f6d01d3-7285-4f94-b02c-c7570efebc62",
+      "comment": "",
+      "command": "type",
+      "target": "id=cardId",
+      "targets": [
+        ["id=cardId", "id"],
+        ["css=#cardId", "css:finder"],
+        ["xpath=//input[@id='cardId']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[3]/div/div/div[2]/div[3]/div[3]/div/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div[3]/input", "xpath:position"]
+      ],
+      "value": "456-733-454 43"
+    }, {
+      "id": "34d08745-8dcc-45ea-a7e1-4d7232e901b0",
+      "comment": "",
+      "command": "click",
+      "target": "id=issued",
+      "targets": [
+        ["id=issued", "id"],
+        ["css=#issued", "css:finder"],
+        ["xpath=//input[@id='issued']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[3]/div/div/div[2]/div[3]/div[4]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "46419957-98f7-4557-82ad-ca9a23d37ef8",
+      "comment": "",
+      "command": "type",
+      "target": "id=issued",
+      "targets": [
+        ["id=issued", "id"],
+        ["css=#issued", "css:finder"],
+        ["xpath=//input[@id='issued']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[3]/div/div/div[2]/div[3]/div[4]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": "МВД"
+    }, {
+      "id": "e4688739-3dd4-4967-887d-979ef3b7a259",
+      "comment": "",
+      "command": "type",
+      "target": "css=.vue-dadata__input",
+      "targets": [
+        ["css=.vue-dadata__input", "css:finder"],
+        ["xpath=(//input[@type='text'])[7]", "xpath:attributes"],
+        ["xpath=//div[@id='address']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Московская обл, г Орехово-Зуево, деревня Абрамовка, тер. СНТ Москва, стр 3"
+    }, {
+      "id": "b32ac695-c1bd-42a0-ad62-8653d3a0677d",
+      "comment": "",
+      "command": "click",
+      "target": "id=phone",
+      "targets": [
+        ["id=phone", "id"],
+        ["css=#phone", "css:finder"],
+        ["xpath=//input[@id='phone']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[3]/div/div/div[2]/div[3]/div[6]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e813df3f-6be9-475f-b077-5708f7ab13d5",
+      "comment": "",
+      "command": "type",
+      "target": "id=phone",
+      "targets": [
+        ["id=phone", "id"],
+        ["css=#phone", "css:finder"],
+        ["xpath=//input[@id='phone']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[3]/div/div/div[2]/div[3]/div[6]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "(568)765-67 78"
+    }, {
+      "id": "f6680c43-a654-470d-b897-f8dd5a4aa3eb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.outline",
+      "targets": [
+        ["css=.outline", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[3]/div/div/div[2]/div[3]/div[9]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Прикрепить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf8228cf-a02c-40f8-903d-a54eab0241b9",
+      "comment": "",
+      "command": "type",
+      "target": "css=.upload-widget > input",
+      "targets": [
+        ["css=.upload-widget > input", "css:finder"],
+        ["xpath=//input[@type='file']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[3]/div/div/div[2]/div[3]/div[8]/input", "xpath:idRelative"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": "C:\\fakepath\\QA.jpg"
+    }, {
+      "id": "86754ba7-b71b-468b-8531-80179d7944fb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fill",
+      "targets": [
+        ["css=.fill", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[3]/div/div/div[2]/div[3]/div[9]/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Отправить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "453fb2c0-b0aa-4bdc-a692-fa904c5ee05d",
+    "name": "Diplom",
+    "commands": [{
+      "id": "1d2c4b7f-308a-42bd-9e83-dc457f4a7789",
+      "comment": "",
+      "command": "open",
+      "target": "css=.btn",
+      "targets": [],
+      "value": "https://qa.neapro.site/login/"
+    }, {
+      "id": "7a83b94b-a68a-4409-acee-57a4047cdf2b",
+      "comment": "",
+      "command": "type",
+      "target": "css=.fieldset:nth-child(1) input",
+      "targets": [
+        ["css=.fieldset:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/section/div[2]/div/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "alexdives@ya.ru"
+    }, {
+      "id": "f1120b44-7175-413d-aebc-08ec033dd8de",
+      "comment": "",
+      "command": "type",
+      "target": "css=.fieldset:nth-child(2) input",
+      "targets": [
+        ["css=.fieldset:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/section/div[2]/div/div/div/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "12345678"
+    }, {
+      "id": "3f0277b9-0f55-45b4-bcd6-4fc064700606",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/section/div[2]/div/div/div/form/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Подтвердить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bfef5b31-806d-4e58-8949-274ca820c90d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.active .document-tile:nth-child(2) > .document-status",
+      "targets": [
+        ["css=.active .document-tile:nth-child(2) > .document-status", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[3]/div/div/div[2]/div[2]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2d5f051-052e-4dc9-8744-0cd1139880f3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.outline",
+      "targets": [
+        ["css=.outline", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[3]/div/div/div[2]/div[3]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Прикрепить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "829139d6-9929-4aca-9871-4bb158f570b3",
+      "comment": "",
+      "command": "type",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='file']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[3]/div/div/div[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "C:\\fakepath\\4_ons_black_bg_1920x1080.png"
+    }, {
+      "id": "63640566-7434-45a4-adee-957a7107d03d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fill",
+      "targets": [
+        ["css=.fill", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[3]/div/div/div[2]/div[3]/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Отправить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "34036d73-518e-4009-8af1-a6accdc7f7d8",
+    "name": "Dogovor, Zayavlenie, Soglasie",
+    "commands": [{
+      "id": "d3c816dd-cf34-4aeb-a0db-4b2e16d7ec63",
+      "comment": "",
+      "command": "open",
+      "target": "https://qa.neapro.site/login/",
+      "targets": [],
+      "value": "https://qa.neapro.site/login/"
+    }, {
+      "id": "5f3983dd-fe9b-477f-9d1d-21f6789081aa",
+      "comment": "",
+      "command": "type",
+      "target": "css=.fieldset:nth-child(1) input",
+      "targets": [
+        ["css=.fieldset:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/section/div[2]/div/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "alexdives@ya.ru"
+    }, {
+      "id": "ce73cb19-fb82-4c63-bace-5dde9005f596",
+      "comment": "",
+      "command": "type",
+      "target": "css=.fieldset:nth-child(2) input",
+      "targets": [
+        ["css=.fieldset:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/section/div[2]/div/div/div/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "12345678"
+    }, {
+      "id": "e1fa481d-d5d1-47fd-acd9-2b1704dfad87",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/section/div[2]/div/div/div/form/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Подтвердить')]", "xpath:innerText"]
+      ],
+      "value": "https://qa.neapro.site/login/"
+    }, {
+      "id": "c75bf1e3-b3e7-47bf-a7ba-60fcf2b9afb5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form:nth-child(3) .document-tile:nth-child(1)",
+      "targets": [
+        ["css=.form:nth-child(3) .document-tile:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[3]/div/div/div[3]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4607fdf7-ac63-4f65-a6bb-cf5a46f0d17e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(2)",
+      "targets": [
+        ["css=.btn:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[2]/div/div/div[2]/div[3]/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Прикрепить')]", "xpath:innerText"]
+      ],
+      "value": "https://qa.neapro.site/login/"
+    }, {
+      "id": "43cabe6f-4238-48ad-b6eb-0df155afd22a",
+      "comment": "",
+      "command": "type",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='file']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[2]/div/div/div[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "C:\\fakepath\\contract.pdf"
+    }, {
+      "id": "4ad5c77e-af15-421a-88a3-37a9c4caeca1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fill",
+      "targets": [
+        ["css=.fill", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[2]/div/div/div[2]/div[3]/div[2]/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'Отправить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "47a6ced8-5fc8-4358-9e1a-af297dff4e63",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form:nth-child(3) .document-tile:nth-child(2)",
+      "targets": [
+        ["css=.form:nth-child(3) .document-tile:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[3]/div/div/div[3]/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "90fdc804-f53d-4202-9bf3-2dcb49fb632c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Скачать",
+      "targets": [
+        ["linkText=Скачать", "linkText"],
+        ["css=.btn:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Скачать')]", "xpath:link"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[2]/div/div/div[2]/div[3]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/documents/statement.pdf')]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Скачать')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win7922",
+      "windowTimeout": 2000
+    }, {
+      "id": "5ce23c0d-6e09-41f3-86bd-f64f92e731cc",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "62664434-3f56-4510-abc7-304f81c09cce",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win7922}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "91c6d792-43a7-4cdc-99eb-5f81dc8fae8c",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "27614591-abdc-45db-a636-d0eb3255aa85",
+      "comment": "",
+      "command": "click",
+      "target": "css=.delete",
+      "targets": [
+        ["css=.delete", "css:finder"],
+        ["xpath=(//img[@alt='X'])[2]", "xpath:img"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[2]/div/div/div[2]/div[3]/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d59638ce-6a1b-4e8e-a769-5935e3a051ca",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(2)",
+      "targets": [
+        ["css=.btn:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[2]/div/div/div[2]/div[3]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Прикрепить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae0bfbef-c57c-476c-bf80-5159c8b9bebd",
+      "comment": "",
+      "command": "type",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='file']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[2]/div/div/div[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "C:\\fakepath\\statement.pdf"
+    }, {
+      "id": "9d79b6b7-05bb-4baf-b61f-09cdd96470dc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fill",
+      "targets": [
+        ["css=.fill", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[2]/div/div/div[2]/div[3]/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Отправить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3d446ed-0ba0-4216-a43c-82480eb7e6bf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.document-tile:nth-child(3) > img",
+      "targets": [
+        ["css=.document-tile:nth-child(3) > img", "css:finder"],
+        ["xpath=(//img[@alt='загружено'])[3]", "xpath:img"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[3]/div/div/div[3]/div[2]/div[3]/img", "xpath:idRelative"],
+        ["xpath=//div[3]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "52e3c08a-b8e4-48dd-8a5c-0cbcac01acdb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.delete",
+      "targets": [
+        ["css=.delete", "css:finder"],
+        ["xpath=(//img[@alt='X'])[2]", "xpath:img"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[2]/div/div/div[2]/div[3]/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb5100d1-411e-44bc-a70e-04a6714c0743",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(2)",
+      "targets": [
+        ["css=.btn:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[2]/div/div/div[2]/div[3]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Прикрепить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e240c6b0-1827-4467-83bd-6773c8e16507",
+      "comment": "",
+      "command": "type",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@type='file']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[2]/div/div/div[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "C:\\fakepath\\agreement.pdf"
+    }, {
+      "id": "9a7e725c-ded6-42f0-b00c-505b43f5b06d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fill",
+      "targets": [
+        ["css=.fill", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[2]/div/div/div[2]/div[3]/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Отправить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "cb1ab969-52ae-4fb8-b9b4-494ec21d792c",
+    "name": "Logout",
+    "commands": [{
+      "id": "9d706626-9024-4a60-b161-c9ec16f4fa87",
+      "comment": "",
+      "command": "open",
+      "target": "https://qa.neapro.site/login/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e453d9e2-5103-4f04-8c22-b01a2b9eebd0",
+      "comment": "",
+      "command": "type",
+      "target": "css=.fieldset:nth-child(1) input",
+      "targets": [
+        ["css=.fieldset:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/section/div[2]/div/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "alexdives@ya.ru"
+    }, {
+      "id": "280c6812-9f9e-4d1a-97fb-ac459679aab1",
+      "comment": "",
+      "command": "type",
+      "target": "css=.fieldset:nth-child(2) input",
+      "targets": [
+        ["css=.fieldset:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/section/div[2]/div/div/div/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "12345678"
+    }, {
+      "id": "0ea13943-dd92-4686-a32a-6edd90ec7c10",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/section/div[2]/div/div/div/form/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Подтвердить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7951b63-8da0-4bba-96dc-7d035b07462e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.scrollmenu",
+      "targets": [],
+      "value": "https://qa.neapro.site/login/"
+    }, {
+      "id": "b6030ceb-4635-481f-a8d5-c0e0b46c4944",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.logout",
+      "targets": [],
+      "value": "https://qa.neapro.site/login/"
+    }, {
+      "id": "5fdce44c-1c6c-4695-a322-488d2e5a3e86",
+      "comment": "",
+      "command": "click",
+      "target": "css=.logout_name",
+      "targets": [
+        ["css=.logout_name", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "ba82b19f-aea0-41bb-b1b1-762e022c883d",
+    "name": "Password change",
+    "commands": [{
+      "id": "8456b32f-d131-4817-8b34-5fe379a49f40",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": "https://qa.neapro.site/login/"
+    }, {
+      "id": "73b87714-ddc9-4189-8c73-d1f7a21fa27a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fieldset:nth-child(1) input",
+      "targets": [
+        ["css=.fieldset:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/section/div[2]/div/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "https://qa.neapro.site/login/"
+    }, {
+      "id": "1a152f17-6aaa-4345-94e4-286d103da4f8",
+      "comment": "",
+      "command": "type",
+      "target": "css=.fieldset:nth-child(1) input",
+      "targets": [
+        ["css=.fieldset:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/section/div[2]/div/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "alexdives@ya.ru"
+    }, {
+      "id": "ec9f20c3-f42c-4b73-9f2d-79ad0571c22a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fieldset:nth-child(2) input",
+      "targets": [
+        ["css=.fieldset:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/section/div[2]/div/div/div/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "https://qa.neapro.site/login/"
+    }, {
+      "id": "b3ec9a2f-8a78-4bb5-8848-173bbd01c3ba",
+      "comment": "",
+      "command": "type",
+      "target": "css=.fieldset:nth-child(2) input",
+      "targets": [
+        ["css=.fieldset:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/section/div[2]/div/div/div/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "12345678"
+    }, {
+      "id": "cb4421c5-29c0-4f3b-bb25-75b7478331db",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/section/div[2]/div/div/div/form/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Подтвердить')]", "xpath:innerText"]
+      ],
+      "value": "https://qa.neapro.site/login/"
+    }, {
+      "id": "2d080ae7-5e18-41c5-951e-b73c657a4a7f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.scrollmenu",
+      "targets": [],
+      "value": "https://qa.neapro.site/login/"
+    }, {
+      "id": "2cc3e82b-3848-469f-8bf9-3ac2568b8d03",
+      "comment": "",
+      "command": "click",
+      "target": "css=.avatar_link_name",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "09dc5aa0-5650-4d4c-ba54-5cd9b228a275",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Безопасность и вход",
+      "targets": [
+        ["linkText=Безопасность и вход", "linkText"],
+        ["css=.links > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Безопасность и вход')]", "xpath:link"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[2]/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cabinet/security')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Безопасность и вход')]", "xpath:innerText"]
+      ],
+      "value": "https://qa.neapro.site/login/"
+    }, {
+      "id": "ae5ea571-fd4b-4656-b863-d8a724d6bab7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.item:nth-child(2) > .icon",
+      "targets": [
+        ["css=.item:nth-child(2) > .icon", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[2]/div/div/div/div[2]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": "https://qa.neapro.site/login/"
+    }, {
+      "id": "88ce01be-f06f-4085-8f18-b33a8e24e1ef",
+      "comment": "",
+      "command": "type",
+      "target": "id=oldPassword",
+      "targets": [
+        ["id=oldPassword", "id"],
+        ["css=#oldPassword", "css:finder"],
+        ["xpath=//input[@id='oldPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[2]/div/div/div/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "12345678"
+    }, {
+      "id": "0addc03e-11e1-433e-ac91-37d28e594eff",
+      "comment": "",
+      "command": "type",
+      "target": "id=newPassword",
+      "targets": [
+        ["id=newPassword", "id"],
+        ["css=#newPassword", "css:finder"],
+        ["xpath=//input[@id='newPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[2]/div/div/div/div[2]/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "23456789"
+    }, {
+      "id": "be6bb5b3-b30e-46e5-ad1a-ae0aea3ec6ae",
+      "comment": "",
+      "command": "type",
+      "target": "id=confirmPassword",
+      "targets": [
+        ["id=confirmPassword", "id"],
+        ["css=#confirmPassword", "css:finder"],
+        ["xpath=//input[@id='confirmPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[2]/div/div/div/div[2]/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "23456789"
+    }, {
+      "id": "5a00fb4a-679a-4808-a5d3-70beef21ccda",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[2]/div/div/div/div[2]/form/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Подтвердить')]", "xpath:innerText"]
+      ],
+      "value": "https://qa.neapro.site/login/"
+    }]
+  }, {
+    "id": "5d6da8b7-a9b4-46fc-85d1-e6014125b38b",
+    "name": "Phone number change",
+    "commands": [{
+      "id": "8db3a5ef-8ad7-4b03-805c-987d030dc6cf",
+      "comment": "",
+      "command": "open",
+      "target": "https://qa.neapro.site/login/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a6974aaf-376e-41a5-9785-ce2f4a7caf51",
+      "comment": "",
+      "command": "type",
+      "target": "css=.fieldset:nth-child(1) input",
+      "targets": [
+        ["css=.fieldset:nth-child(1) input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/section/div[2]/div/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "alexdives@ya.ru"
+    }, {
+      "id": "39d8f9bb-60a5-41eb-92ba-4a2e591e0328",
+      "comment": "",
+      "command": "type",
+      "target": "css=.fieldset:nth-child(2) input",
+      "targets": [
+        ["css=.fieldset:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//div[@id='__layout']/div/section/div[2]/div/div/div/form/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "12345678"
+    }, {
+      "id": "85c48cbc-1ff5-4d19-8886-6500a6ebb172",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [],
+      "value": "https://qa.neapro.site/login/"
+    }, {
+      "id": "b6f002f2-9afc-40d0-884d-95b6b012a610",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.scrollmenu",
+      "targets": [],
+      "value": "https://qa.neapro.site/login/"
+    }, {
+      "id": "b9bb23dd-c165-4960-9d92-ffed74e236f4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.avatar_link_name",
+      "targets": [],
+      "value": "https://qa.neapro.site/login"
+    }, {
+      "id": "d71d035f-58da-423b-b46e-3f6a498ef171",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Безопасность и вход",
+      "targets": [],
+      "value": "https://qa.neapro.site/login"
+    }, {
+      "id": "31df0f1a-28c1-4cf0-a10b-2d569a76efd4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.item:nth-child(1) .name",
+      "targets": [
+        ["css=.item:nth-child(1) .name", "css:finder"],
+        ["xpath=//div[@id='__layout']/div/div[3]/div/div/div[2]/div/div/div/div[2]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div[2]/div/div/div", "xpath:position"]
+      ],
+      "value": "https://qa.neapro.site/login"
+    }, {
+      "id": "c0eb148a-17c0-476f-aad7-0971513b2d46",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [],
+      "value": "5555555500"
+    }]
+  }],
+  "suites": [{
+    "id": "0cf7dd80-97d3-4475-84c7-5eb1b9657a83",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["74d00fc1-ff4d-4f96-a089-5b950dce16d7"]
+  }],
+  "urls": ["https://qa.neapro.site/login/"],
+  "plugins": []
+}
